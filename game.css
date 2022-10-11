@@ -1,0 +1,58 @@
+body{
+    background-color:#000000;
+    color:  rgb(214, 214, 214);
+}
+
+#GameName{
+    background-color:#8d0a0a;
+    color:  rgb(214, 214, 214);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+#start{
+    background-color:#9c1e1c;
+}
+
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 80px;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+    border: 3px solid rgb(165, 165, 165);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 3px solid  rgb(183, 183, 183);
+}
+
+.square:hover{
+    opacity: 40%;
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+.green{
+    background-color: green; 
+}
